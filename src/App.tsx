@@ -520,7 +520,7 @@ export default function App() {
   return (
     <div className="app">
       <header className="topbar">
-        <h1><img src="/magnachip-logo.jpg" alt="MagnaChip" />Safe Operating Area Calculator</h1>
+        <h1><img src="./magnachip-logo.jpg" alt="MagnaChip" />Safe Operating Area Calculator</h1>
         <div className="topbar-actions">
           <button className="topbtn" onClick={() => setPickerOpen(true)}>Device DB</button>
           <button className="topbtn" onClick={() => setImporterOpen(true)}>Import</button>
